@@ -1,12 +1,8 @@
 
 header {
+	margin-top: 20px;
 	padding: 0 70px;
 	background: #f6f2f2;
-}
-.row:after {
-	content: "";
-	display: block;
-	clear: both;
 }
 .menu   li {
     display: inline-block;
@@ -23,14 +19,14 @@ header {
 	text-decoration: none;
 	font-size: 0.875em;
 	display: block;
-	margin: 0 auto;
 	padding: 15px 10px;
 }
 .menu a:hover {
 	background: #ff3f40;
+	transition: 0.5s;
 }
 .pixar {
-	float: right;
+
 }
 header h2 {
 	font-size: 3.75em;
